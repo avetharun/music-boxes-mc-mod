@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "music-boxes",
+  "version": "${version}",
+  "name": "music-boxes",
+  "description": "Adds support for writing songs on spools for playing on Music Boxes which will play the below note block",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/avetharun/music-boxes"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/music-boxes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.feintha.musicboxes.client.Music_boxesClient"
+    ],
+    "main": [
+      "com.feintha.musicboxes.Music_boxes"
+    ]
+  },
+  "mixins": [
+    "music-boxes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "music_boxes.accesswidener"
+}

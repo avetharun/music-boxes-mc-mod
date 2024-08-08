@@ -1,0 +1,10 @@
+{
+  "container.music_box": "Music Box",
+  "item_group.music_boxes": "Music Boxes",
+  "item.music_boxes.music_box_key": "Music Box Key",
+  "item.music_boxes.drum_spindle": "Music Box Drum",
+  "block.music_boxes.music_box": "Music Box",
+  "block.music_boxes.exposed_music_box": "Exposed Music Box",
+  "block.music_boxes.weathered_music_box": "Weathered Music Box",
+  "block.music_boxes.oxidized_music_box": "Oxidized Music Box"
+}

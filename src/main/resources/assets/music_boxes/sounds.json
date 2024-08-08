@@ -1,0 +1,8 @@
+{
+  "music_boxes.block.music_box.chime": {
+    "sounds": [
+      "music_boxes:note/_music_box_note_f"
+    ],
+    "subtitle": "subtitles.block.music_box.note"
+  }
+}
